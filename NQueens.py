@@ -60,8 +60,6 @@ def CheckQueens(Board, queens, row, cols, diag1, diag2):
     return False
 
 
-
-# Recursive Function returns True or False
 def NQueens(Board, Queens):
     col = [False] * 8
     diag1 = [False] * (2 * 8 - 1)
